@@ -1,8 +1,10 @@
 package com.su.criminalintent.database
 
+import android.util.Log
 import androidx.room.TypeConverter
 import java.util.*
 
+private const val TAG = "CrimeTypeConverters"
 class CrimeTypeConverters {
 
     @TypeConverter
